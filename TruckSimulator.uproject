@@ -1,0 +1,56 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{6AD5A859-4981-11DD-69B8-7EAC20DBAEFD}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UMG"
+			]
+		},
+		{
+			"Name": "Gameplay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UnrealEd"
+			]
+		},
+		{
+			"Name": "GameAI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"AIModule"
+			]
+		},
+		{
+			"Name": "GameCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
